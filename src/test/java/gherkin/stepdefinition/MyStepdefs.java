@@ -6,9 +6,7 @@ import org.junit.Assert;
 
 public class MyStepdefs {
 // Classe responsavel pela criação dos Steps do Cucumber
-
     public MyStepdefs() throws Exception {
-
     }
     @Given("dados nos quais serão utilizados")
     public void dadosNosQuaisSerãoUtilizados() {
