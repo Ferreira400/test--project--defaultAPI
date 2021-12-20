@@ -1,11 +1,9 @@
 package gherkin.hook;
 
 
-
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-
 
 import java.net.MalformedURLException;
 
@@ -27,6 +25,7 @@ public class Hook {
     @After
     public void afterScenario(Scenario sc){
 
+        System.out.println(scenario.isFailed());
 
     }
 }
