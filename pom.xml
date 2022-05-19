@@ -64,27 +64,7 @@
             <version>1.18.22</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>io.confluent</groupId>
-            <artifactId>kafka-avro-serializer</artifactId>
-            <version>5.3.0</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
-        <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka_2.13</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk</artifactId>
-            <version>1.12.99</version>
-        </dependency>
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.13.0</version>
-        </dependency>
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
@@ -168,7 +148,7 @@
         <dependency>
             <groupId>Tesseract</groupId>
             <artifactId>Tesseract</artifactId>
-            <version>2.0</version>
+            <version>2.2</version>
         </dependency>
         <!--        <dependency>-->
         <!--            <groupId>grupopan.frameworkqa</groupId>-->
