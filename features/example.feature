@@ -1,11 +1,22 @@
-Feature: Funcionalidade
+Feature: Criação de proposta para a etapa de formalização
+ # @severity=BLOCKER
+  @severity=MINOR
+ # @severity=TRIVIAL
+ # @severity=critical
 
-  @tags
-  Scenario : Caso de teste
-    Given dados nos quais serão utilizados
-    When ação que será feita
-    Then resultado esperado
 
+
+
+@testecontrato
+    Scenario Outline: Validar o retorno dos contratos
+    Given o usuario fez o request de path "/veiculos/contratos"
+    When retornado status 200
+    Then validar o campo '<valorqate>'
+
+  Examples:
+  |valorqate|
+  |'qtde_total'|
+  |'qtde_pagas'|
 
 
 
